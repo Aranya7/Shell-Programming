@@ -1,0 +1,25 @@
+~$ vi simif.sh  
+~$ chmod ugo+x simif.sh  
+~$ ./simif.sh  
+~$ ls  
+ifelif.sh ifpgm.sh posnew.sh post.sh sample.txt shell.term simif.sh sum.sh  test.sh tt.sh  
+~$ mkdir d1  
+~$ ls  
+d1 ifelif.sh ifpgm.sh posnew.sh post.sh sample.txt shell.term simif.sh  sum.sh test.sh tt.sh  
+~$ mkdir d2  
+~$ mkdir d3  
+~$ ls  
+d1 d2 d3 ifelif.sh ifpgm.sh posnew.sh post.sh sample.txt shell.term  simif.sh sum.sh test.sh  
+tt.sh  
+~$ cd d1  
+~/d1$ mkdir dd1  
+~/d1$ cd ..  
+~$ cd d2  
+~/d2$ mkdir dd2  
+~/d2$ cd ..  
+~$ ls  
+d1 d2 d3 ifelif.sh ifpgm.sh posnew.sh post.sh sample.txt shell.term  simif.sh sum.sh test.sh tt.sh  
+~$ ./simif.sh  
+d1  
+d2  
+d3 
